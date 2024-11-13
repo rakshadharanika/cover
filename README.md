@@ -54,7 +54,7 @@ Publish the website in the LocalHost.
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
     }
 
-    /* Background image styling */
+  
     .cover-image {
       width: 100%;
       height: 100%;
@@ -62,7 +62,7 @@ Publish the website in the LocalHost.
       filter: brightness(1.3); /* Increase brightness */
     }
 
-    /* Gradient overlay */
+ 
     .gradient-overlay {
       position: absolute;
       top: 0;
@@ -72,7 +72,7 @@ Publish the website in the LocalHost.
       background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)); /* Lighter overlay */
     }
 
-    /* Author image styling */
+  
     .author-image {
       position: absolute;
       top: 15px;
@@ -83,8 +83,6 @@ Publish the website in the LocalHost.
       border: 2px solid goldenrod; /* Gold border around the image */
       box-shadow: 0 0 8px rgba(255, 215, 0, 0.8);
     }
-
-    /* Title for the author at the top */
     .author-title {
       position: absolute;
       top: 20px;
@@ -97,8 +95,6 @@ Publish the website in the LocalHost.
       letter-spacing: 2px;
       text-shadow: 0px 0px 8px rgba(255, 215, 0, 0.7);
     }
-
-    /* Subtitle line below the author name */
     .subtitle-line {
       position: absolute;
       top: 50px;
@@ -107,8 +103,6 @@ Publish the website in the LocalHost.
       border-top: 1px solid gold;
       opacity: 0.8;
     }
-
-    /* Main book title */
     .main-title {
       position: absolute;
       bottom: 120px;
@@ -121,8 +115,6 @@ Publish the website in the LocalHost.
       text-shadow: 0px 0px 12px rgba(255, 69, 0, 0.8), 2px 2px 6px black;
       font-family: 'Palatino', serif;
     }
-
-    /* Subtitle below the main title */
     .series-title {
       position: absolute;
       bottom: 80px;
@@ -134,8 +126,6 @@ Publish the website in the LocalHost.
       letter-spacing: 1px;
       text-shadow: 1px 1px 4px black;
     }
-
-    /* Name styling below the series title */
     .creator-name {
       position: absolute;
       bottom: 40px;
@@ -152,26 +142,13 @@ Publish the website in the LocalHost.
 </head>
 <body>
   <div class="cover-container">
-    <!-- Background image -->
     <img src="C:/Users/A.sathish/Downloads/WhatsApp Image 2024-11-13 at 15.31.02_85b797b6.jpg" alt="Book Cover Image" class="cover-image">
-    
-    <!-- Gradient overlay -->
     <div class="gradient-overlay"></div>
-
-    <!-- Author's picture -->
     <img src="C:/Users/A.sathish/Downloads/WhatsApp Image 2024-11-13 at 15.54.57_3d74cd79.jpg" alt="Author Image" class="author-image">
-
-    <!-- Author's name at the top -->
     <div class="author-title">AARON LOEB</div>
     <div class="subtitle-line"></div>
-
-    <!-- Main book title -->
     <div class="main-title">THE YOUNG<br>WIZARD</div>
-
-    <!-- Series title -->
     <div class="series-title">Mystic Fire Saga</div>
-
-    <!-- Creator name -->
     <div class="creator-name">V RAKSHA DHARANIKA</div>
   </div>
 </body>
